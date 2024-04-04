@@ -29,10 +29,10 @@ webServer:
 
 # This is the database setup for your server.
 database:
-  host: localhost
-  port: 8090
-  name: mypod
-  user: postgres
+  host: postgresql.zeabur.internal
+  port: 5432
+  name: zeabur
+  user: root
 
 # This is the setup for Redis.
 redis:
